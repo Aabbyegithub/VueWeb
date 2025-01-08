@@ -2,6 +2,9 @@
     <!-- <Login/> -->
     <RouterView></RouterView>
 </template>
+<script setup>
+ 
+</script>
 
 <style>
 #app {

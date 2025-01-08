@@ -1,0 +1,27 @@
+// styles/theme-vars.scss
+
+// 浅色主题变量
+:root {
+  --el-bg-color: #ffffff;
+  --el-bg-color-page: #f2f3f5;
+  --el-text-color-primary: #303133;
+  --el-text-color-regular: #606266;
+  --el-border-color: #dcdfe6;
+  --el-border-color-light: #e4e7ed;
+  --menu-bg-color: #ffffff;
+  --header-bg-color: #ffffff;
+  --header-border-color: #dcdfe6;
+}
+
+// 深色主题变量
+html.dark {
+  --el-bg-color: #141414;
+  --el-bg-color-page: #0a0a0a;
+  --el-text-color-primary: #ffffff;
+  --el-text-color-regular: #d0d0d0;
+  --el-border-color: #434343;
+  --el-border-color-light: #434343;
+  --menu-bg-color: #141414;
+  --header-bg-color: #141414;
+  --header-border-color: #434343;
+}
